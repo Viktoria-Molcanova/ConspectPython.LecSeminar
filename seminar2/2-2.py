@@ -13,11 +13,11 @@ print(array, array[0] + array[1], array[0] * array[1])
 
 ##Вариант 2
 
-x = int(input())
-y = int(input())
+x = int(input("Введите x: "))
+y = int(input("Введите y: "))
 
 for i in range(x):
-for j in range(y):
+    for j in range(y):
   
-if x == i + j and y == i * j:
-print(i, j)
+        if x == i + j and y == i * j:
+            print(i, j)
