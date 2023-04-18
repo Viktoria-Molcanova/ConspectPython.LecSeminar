@@ -15,4 +15,4 @@ print(array)
 
 num=int(input('Введите число '))
 number = len([item for item in array if item == num])
-print ('искомое число:',num, ' массив:',array,'количество чисел в массиве:', number )
+print ('искомое число:',num, ' массив:',array,'количество чисел в массиве:', number ) 
