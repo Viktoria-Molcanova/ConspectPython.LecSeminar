@@ -6,9 +6,9 @@ from random import randint
 # создание и вывод массива
 
 n = int(input('Введите размер массива '))
-array=[0]*n
+array= [0] * n
 for i in range(n):
-    array[i]=randint(0,20)
+    array[i] = randint(0,20)
 print(array) 
 
 # поиск искомого числа
