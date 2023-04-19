@@ -21,5 +21,5 @@ sum = 0
 for i in a:
     for j, k in letters.items():
         if i in k:
-            sum += j
+            sum += j 
 print(f"Стоимость  слова: {sum}")
