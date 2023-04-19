@@ -16,7 +16,7 @@ letters = {1:"AEIOULNSTRАВЕИНОРСТ",
                 8:"JXШЭЮ",
                 10:"QZФЩЪ"}
 
-a = input("Введите слово: ").upper()
+a = input("Введите слово: ").upper() 
 sum = 0
 for i in a:
     for j, k in letters.items():
