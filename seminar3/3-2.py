@@ -6,7 +6,7 @@ from random import randint
 # создание и вывод массива
 
 n = int(input('Введите размер массива: '))
-list=[0]*n
+list=[0] * n
 for i in range(n):
     list[i]=randint(0,20)
 print(list) 
